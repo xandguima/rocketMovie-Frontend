@@ -2,8 +2,7 @@
 
 <p align="center">
 Projeto exclusivo e gratuito, promovido pela Rocketseat dentro do curso EXPLORE para ensino de tecnologias WEB. <br/>
-<a target="_blank" href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
-</p>
+
 
 
 
