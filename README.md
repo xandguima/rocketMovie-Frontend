@@ -2,8 +2,7 @@
 
 <p align="center">
 Projeto exclusivo e gratuito, promovido pela Rocketseat dentro do curso EXPLORE para ensino de tecnologias WEB. <br/>
-<a target="_blank" href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
-</p>
+
 
 
 
@@ -14,7 +13,7 @@ Projeto exclusivo e gratuito, promovido pela Rocketseat dentro do curso EXPLORE 
 <br>
 
 <p align="center">
-  <img alt="Projeto RocketMovie" src="./github/preview.png" width="100%">
+  <img alt="Projeto RocketMovie" src="./src/github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Rocket Movie é site voltado a usuários apaixonados por filmes que tem o desejo de ter uma lista dos seus filmes favoritos.
 
-- [Acesse o projeto finalizado, online](https://xandguima.github.io/Recriando_layout_rocket.sectect/)
+- [Acesse o projeto finalizado, online]( https://xandguima.github.io/rocketMovie/)
 
 ## 🔖 Layout
 
