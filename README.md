@@ -14,7 +14,7 @@ Projeto exclusivo e gratuito, promovido pela Rocketseat dentro do curso EXPLORE 
 <br>
 
 <p align="center">
-  <img alt="Projeto RocketMovie" src="./github/preview.png" width="100%">
+  <img alt="Projeto RocketMovie" src="./src/github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
