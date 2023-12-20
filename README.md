@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Rocket Movie é site voltado a usuários apaixonados por filmes que tem o desejo de ter uma lista dos seus filmes favoritos.
 
-- [Acesse o projeto finalizado, online](https://xandguima.github.io/Recriando_layout_rocket.sectect/)
+- [Acesse o projeto finalizado, online]( https://xandguima.github.io/rocketMovie/)
 
 ## 🔖 Layout
 
