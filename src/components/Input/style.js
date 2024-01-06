@@ -24,5 +24,8 @@ export const ContainerInput = styled.div`
     background-color: transparent;
     
    }
+   >input:focus{
+     outline:none;
+   }
   
 `
