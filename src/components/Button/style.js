@@ -23,5 +23,9 @@ export const ContainerButton = styled.button`
   &:disabled {
     opacity: 0.5;
   }
+  &:hover{
+    filter: brightness(0.8);
+    transition: filter 0.3s ease;
+  }
 
 `
