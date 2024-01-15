@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import { Link } from 'react-router-dom';
 
 export const ContainerHeader = styled.header`
   width: 100%;
@@ -21,11 +20,11 @@ export const ContainerHeader = styled.header`
     font-weight: 700;
   }
 `
-export const Profile=styled(Link)`
+export const Profile=styled.div`
   display: flex;
   align-items: center;
   gap: 9px;
-  >img{
+  >#linkImg img{
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -36,7 +35,7 @@ export const Profile=styled(Link)`
     flex-direction: column;
     align-items: flex-end;
     font-size: 14px;
-    >strong{
+    >#linkStrong strong{
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
     >a{
