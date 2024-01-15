@@ -15,7 +15,10 @@ export const ContainerTextarea=styled.textarea`
   border-radius: 10px;
   padding: 16px;
   
-   &::placeholder{
+  &::placeholder{
     color: ${({theme})=>theme.COLORS.GRAY_300};
-   }
+  }
+  &:focus{
+    outline: none;
+  }
 `
