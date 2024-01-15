@@ -8,18 +8,16 @@ export const ContainerCreate=styled.div`
   grid-template-rows:116px auto;
   grid-template-areas: 
   "header"
-  "content"
-;
+  "content";
 `
 
 export const Content=styled.div`
   grid-area: content;
   padding: 40px 123px 0;
   >form{
-    
     padding:0 3px;
     overflow-y:auto;
-    height: 550px;
+    height: 80%;
     display:flex;
     flex-direction: column;
     gap: 40px;
@@ -45,13 +43,7 @@ export const Content=styled.div`
         gap:24px;
       }
     }
-    >.buttons{
-      display:flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 40px;
-      margin-bottom: 3px;
-    }
+  
     &::-webkit-scrollbar {
       width: 8px; 
     }
@@ -63,7 +55,6 @@ export const Content=styled.div`
     &::-webkit-scrollbar-thumb {
       background:${({theme})=>theme.COLORS.PINK};
       border-radius: 5px;
-     
       
     }
 
