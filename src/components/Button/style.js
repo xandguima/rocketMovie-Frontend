@@ -14,7 +14,8 @@ export const ContainerButton = styled.button`
   display: flex;
   align-items: center;
   gap:8px;
-  margin-top: 16px;
+  margin: 16px auto ;
+
   >svg{
     color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   }
