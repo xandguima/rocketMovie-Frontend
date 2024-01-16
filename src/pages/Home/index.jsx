@@ -15,20 +15,26 @@ import {MovieNote} from '../../components/MovieNote'
 
 export function Home(){
 
-  const [marks,setMarks]= useState([]);
+  const [search,setSearch] = useState('');
+  const [movies,setMovies] = useState([]);
+
+  const handleSearch = async (lastSearch)=>{
+    setSearch(lastSearch)
+  }
 
   useEffect(()=>{
-    async function fetchMarks(){
-      const response = await api.get("/notes")
-      setMarks(response.data)
+    async function fetchMovie(){
+      const response =await api.get(`/notes?title=${search}`)
+
+      setMovies(response.data)
     }
+    fetchMovie()
     
-    fetchMarks()
-  })
+  },[search])
 
   return( 
     <ContainerHome>
-      <Header/>
+      <Header onSearch={handleSearch}/>
       <Content>
         <header>
           <h1>Meus filmes</h1>
@@ -40,8 +46,10 @@ export function Home(){
         <ListMovies>
           <div className="movies">
             {
-              marks && marks.map(mark=>(
-                <MovieNote key={mark.id} data={mark}/>
+             movies.map(movie=>(
+                <MovieNote
+                key={String(movie.id)} 
+                data={movie}/>
              ))
             }
             <MovieNote data={{
