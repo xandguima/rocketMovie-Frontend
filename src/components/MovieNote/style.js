@@ -33,18 +33,19 @@ export const ContainerMovie=styled.div`
   }
   >p{
     width: 100%;
-    height: 38px;
+    height: 52px;
    
-    text-align: justify;
+    align-self: stretch;
+    text-align: left;
     overflow: hidden;
     color: var(--Gray, #999591);
     text-overflow: ellipsis;
-    white-space:pre-line;
+    white-space:normal;
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 26px;
     }
   
 `
