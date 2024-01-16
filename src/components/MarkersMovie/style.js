@@ -33,5 +33,8 @@ export const ContainerMarkersMovie=styled.div`
       color:${({theme})=>theme.COLORS.GRAY_200};
       border:none;
     }
+    &:focus{
+      outline:none;
+    }
   }
 `
