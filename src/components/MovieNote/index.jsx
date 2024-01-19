@@ -4,7 +4,7 @@ import { Tag } from "../../components/Tag";
 import { Star } from "../../components/Star";
 export function MovieNote({data,...rest}){
   return(
-    <ContainerMovie>
+    <ContainerMovie {...rest}>
       <header>
         <h1>{data.title}</h1>
         <div>
