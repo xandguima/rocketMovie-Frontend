@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-export const ContainerMovie=styled.div`
+export const ContainerMovie=styled.button`
   width:100%;
+  border:none;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_PINK};
   border-radius: 10px;
