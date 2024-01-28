@@ -1,9 +1,8 @@
-import {Routes, Route,Navigate} from 'react-router-dom'
-
 import{Home} from '../pages/Home'
 import{ Create } from '../pages/Create'
-import { Profile } from '../pages/Profile'
 import {Preview} from '../pages/Preview'
+import { Profile } from '../pages/Profile'
+import {Routes, Route,Navigate} from 'react-router-dom'
 
 export function AppRoutes(){
   return(

@@ -1,4 +1,4 @@
-import {ContainerTextarea} from './style'
+import {ContainerTextarea} from './style';
 
 export function Textarea({value,...rest}){
   return(

@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import {api} from '../../services/api'
-import {useAuth} from '../../hooks/auth'
-import {Input} from "../../components/Input"
-import {Button} from "../../components/Button"
+import {api} from '../../services/api';
+import {useAuth} from '../../hooks/auth';
+import {Input} from "../../components/Input";
+import {Button} from "../../components/Button";
 import { useNavigate } from 'react-router-dom';
-import {ButtonText} from "../../components/ButtonText"
+import {ButtonText} from "../../components/ButtonText";
 import { ContainerProfile,Form,Avatar } from "./style";
-import avatarPlaceHolder from '../../assets/avatar_placeholder.svg'
-import {FiArrowLeft,FiUser,FiMail,FiLock,FiCamera} from 'react-icons/fi'
+import avatarPlaceHolder from '../../assets/avatar_placeholder.svg';
+import {FiArrowLeft,FiUser,FiMail,FiLock,FiCamera} from 'react-icons/fi';
 
 
 export function Profile(){

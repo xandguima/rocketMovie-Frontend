@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import { api } from '../../services/api'
-import { FiArrowLeft } from 'react-icons/fi'
-import {Input} from '../../components/Input'
-import { useNavigate } from 'react-router-dom'
-import {ContainerCreate,Content} from './style'
-import { Header } from '../../components/Header'
-import { Button } from '../../components/Button'
-import {Textarea} from '../../components/Textarea'
-import { ButtonText } from '../../components/ButtonText'
-import {MarkersMovie} from '../../components/MarkersMovie'
+import { useState } from 'react';
+import { api } from '../../services/api';
+import { FiArrowLeft } from 'react-icons/fi';
+import {Input} from '../../components/Input';
+import { useNavigate } from 'react-router-dom';
+import {ContainerCreate,Content} from './style';
+import { Header } from '../../components/Header';
+import { Button } from '../../components/Button';
+import {Textarea} from '../../components/Textarea';
+import { ButtonText } from '../../components/ButtonText';
+import {MarkersMovie} from '../../components/MarkersMovie';
 
 export function Create(){
 

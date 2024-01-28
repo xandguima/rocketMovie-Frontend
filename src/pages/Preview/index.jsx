@@ -1,19 +1,15 @@
-import { useState, useEffect } from 'react';
-import { api } from '../../services/api';
 import { FiX } from 'react-icons/fi';
-import {FiClock,FiArrowLeft} from 'react-icons/fi'
-import {useAuth} from '../../hooks/auth'
-
-import { Link, useParams} from 'react-router-dom';
-
-import {ContainerPreview, Content} from './style';
+import {Tag} from '../../components/Tag';
+import { api } from '../../services/api';
+import {useAuth} from '../../hooks/auth';
+import {Star} from '../../components/Star';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {Header} from '../../components/Header';
-import {Star} from '../../components/Star';
-import {Tag} from '../../components/Tag';
+import {ContainerPreview, Content} from './style';
+import { Link, useParams} from 'react-router-dom';
+import {FiClock,FiArrowLeft} from 'react-icons/fi';
 import {ButtonText} from '../../components/ButtonText';
-
-
 
 export function Preview(){
   const [data,setData]=useState(null);

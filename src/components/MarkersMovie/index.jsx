@@ -1,6 +1,5 @@
-import {FiPlus, FiX} from 'react-icons/fi'
-
-import {ContainerMarkersMovie} from './style'
+import {FiPlus, FiX} from 'react-icons/fi';
+import {ContainerMarkersMovie} from './style';
 
 export function MarkersMovie({isNew, value, onClick,...rest}){
   return(

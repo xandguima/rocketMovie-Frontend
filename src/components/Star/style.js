@@ -1,7 +1,6 @@
 import styled from "styled-components";
-
-import starFilled from "../../assets/starIsFilled.svg"
-import starNotFilled from "../../assets/star.svg"
+import starNotFilled from "../../assets/star.svg";
+import starFilled from "../../assets/starIsFilled.svg";
 
 export const ContainerStar = styled.div`
   width:12px;

@@ -1,4 +1,4 @@
-import {ContainerButton} from './style'
+import {ContainerButton} from './style';
 
 export function Button({isBlack,title,icon: Icon,loading=false,...rest}){
   return(

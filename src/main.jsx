@@ -1,12 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { ThemeProvider } from 'styled-components'
-
-import GlobalStyle from './style/global'
-import theme from './style/theme'
-import {AuthProvider} from './hooks/auth'
-import { Routes } from './routes'
-
+import React from 'react';
+import { Routes } from './routes';
+import theme from './style/theme';
+import ReactDOM from 'react-dom/client';
+import GlobalStyle from './style/global';
+import {AuthProvider} from './hooks/auth';
+import { ThemeProvider } from 'styled-components';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode > 
@@ -16,6 +14,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes/>
       </AuthProvider>
     </ThemeProvider>
-   
   </React.StrictMode>,
 )

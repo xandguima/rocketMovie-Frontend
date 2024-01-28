@@ -1,17 +1,11 @@
+import {api} from '../../services/api';
+import { FiPlus } from 'react-icons/fi';
 import { useState,useEffect } from 'react';
-import { FiPlus } from 'react-icons/fi'
-
+import {Button} from '../../components/Button';
+import {Header} from '../../components/Header';
 import { Link,useNavigate } from 'react-router-dom';
-
-import {api} from '../../services/api'
-
-import{useAuth} from '../../hooks/auth'
-
+import {MovieNote} from '../../components/MovieNote';
 import { ContainerHome,Content, ListMovies } from "./style";
-
-import {Button} from '../../components/Button'
-import {Header} from '../../components/Header'
-import {MovieNote} from '../../components/MovieNote'
 
 export function Home(){
 

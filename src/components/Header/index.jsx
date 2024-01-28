@@ -1,18 +1,18 @@
 
+import { api } from "../../services/api";
 import { useAuth } from "../../hooks/auth";
 import { useState,useEffect } from "react";
-import { Link,useNavigate } from 'react-router-dom';
-
-import { api } from "../../services/api";
-import {Input} from '../../components/Input'
+import {Input} from '../../components/Input';
 import { ContainerHeader,Profile } from "./style";
-import avatarPlaceHolder from '../../assets/avatar_placeholder.svg'
+import { Link,useNavigate } from 'react-router-dom';
+import avatarPlaceHolder from '../../assets/avatar_placeholder.svg';
+
 export function Header({onSearch=()=>{}}){
   const [search,setSearch] = useState('');
   const {signOut,user} = useAuth();
   const navigate=useNavigate()
 
-  const avatarUrl = user.avatar_url ? `${api.defaults.baseURL}/files/${user.avatar_url}` : avatarPlaceHolder
+  const avatarUrl = user.avatar_url ? `${api.defaults.baseURL}/files/${user.avatar_url}` : avatarPlaceHolder;
 
   async function handleSearch(){
     navigate("/");

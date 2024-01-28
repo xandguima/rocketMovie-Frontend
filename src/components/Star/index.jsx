@@ -1,4 +1,4 @@
-import {ContainerStar}from './style'
+import {ContainerStar}from './style';
 
 export function Star({isFilled=false,...rest}){
   return(
