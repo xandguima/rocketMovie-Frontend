@@ -20,6 +20,7 @@ export const Content=styled.div`
   
   
   >.noteMovie{
+    position: relative;
     padding-right:24px;
     width: 100%;
     height: 500px;
@@ -92,6 +93,11 @@ export const Content=styled.div`
       border-radius: 5px;
      
       
+    }
+    >.delete{
+    position: absolute;
+    right: 20px;
+  
     }
 
     
