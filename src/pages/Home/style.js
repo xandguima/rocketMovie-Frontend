@@ -40,6 +40,7 @@ export const ListMovies=styled.div`
   width:100%; 
   
   >.movies {
+    padding:10px;
     overflow-y: auto;
     height:550px;
     &::-webkit-scrollbar {
