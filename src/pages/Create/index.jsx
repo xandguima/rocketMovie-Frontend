@@ -1,16 +1,13 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { api } from '../../services/api'
 import { FiArrowLeft } from 'react-icons/fi'
-
-
-import{ContainerCreate,Content} from './style'
-
+import {Input} from '../../components/Input'
+import { useNavigate } from 'react-router-dom'
+import {ContainerCreate,Content} from './style'
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
-import {Input} from '../../components/Input'
-import { ButtonText } from '../../components/ButtonText'
 import {Textarea} from '../../components/Textarea'
+import { ButtonText } from '../../components/ButtonText'
 import {MarkersMovie} from '../../components/MarkersMovie'
 
 export function Create(){
@@ -48,17 +45,19 @@ export function Create(){
       score,
       tags:marks
     })
-
     alert("Nota criada com sucesso!")
-
     navigate("/");
+ 
+  }
+  function handleBack(){
+    navigate(-1)
   }
 
   return(
     <ContainerCreate>
       <Header/>
       <Content>  
-        <ButtonText  icon={FiArrowLeft} title="Voltar"/>
+        <ButtonText  icon={FiArrowLeft} title="Voltar" onClick={handleBack}/>
         <form>
           <h1>Novo filme</h1>
           <section>
