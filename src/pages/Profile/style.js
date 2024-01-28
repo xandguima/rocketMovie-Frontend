@@ -32,7 +32,8 @@ export const Avatar=styled.div`
   height: 186px;
 
   >img{
-    width: 186px;
+    
+    width: 200px;
     height: 186px;
     border-radius:50%;
   } 
@@ -53,7 +54,6 @@ export const Avatar=styled.div`
       display: none;
     }
     >svg{
-      
       width:20px;
       height: 20px;
       color: ${({theme})=>theme.COLORS.BACKGROUND_TAG};
