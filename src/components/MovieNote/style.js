@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerMovie=styled.button`
+  position: relative;
   width:100%;
   border:none;
 
@@ -47,6 +48,12 @@ export const ContainerMovie=styled.button`
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    }
+  }
+
+  >.delete{
+    position: absolute;
+    right: 20px;
+  
+  }
   
 `
