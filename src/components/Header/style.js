@@ -30,10 +30,11 @@ export const Profile=styled.div`
     border-radius: 50%;
   }
   >div{
-    width: 150px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    gap:5px;
     font-size: 14px;
     >#linkStrong strong{
       color: ${({ theme }) => theme.COLORS.WHITE};
